@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="30" y1="20" x2="128" y2="148" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0c4"/><stop offset=".42" stop-color="#d6b775"/><stop offset=".72" stop-color="#987344"/><stop offset="1" stop-color="#f0d69a"/></linearGradient>
+    <linearGradient id="door" x1="52" y1="51" x2="103" y2="125" gradientUnits="userSpaceOnUse"><stop stop-color="#35505a"/><stop offset="1" stop-color="#161827"/></linearGradient>
+  </defs>
+  <path d="M80 7 143 43v74l-63 36-63-36V43Z" fill="#191725" stroke="url(#gold)" stroke-width="2"/>
+  <path d="m80 14 56 33v66l-56 33-56-33V47Z" stroke="#b99862" stroke-opacity=".3"/>
+  <path d="M43 119V68a37 37 0 0 1 74 0v51" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M51 119V69a29 29 0 0 1 58 0v50Z" fill="url(#door)" stroke="url(#gold)"/>
+  <path d="M83 48a23 23 0 1 0 21 32A24 24 0 0 1 83 48Z" fill="url(#gold)"/>
+  <path d="m99 52 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" fill="#fff0c4"/>
+  <path d="M80 89v24m0-7h8m-8 6h5" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="m80 84 5 5-5 5-5-5Z" fill="#e6ca8e"/>
+  <path d="M38 119h84m-77 7h70m-61 7h52" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+  <path d="m30 80 3 5-3 5-3-5Zm100 0 3 5-3 5-3-5Z" fill="#cfb780"/>
+</svg>

@@ -1,0 +1,110 @@
+[
+  {
+    "world": "room-v2",
+    "title": "Свет в твоём окне",
+    "file": "assets/music/room-v2.mp3",
+    "bpm": 62,
+    "seconds": 61.94,
+    "peak": 0.5097,
+    "rms": 0.105
+  },
+  {
+    "world": "0",
+    "title": "Изумрудный порог",
+    "file": "assets/music/0.mp3",
+    "bpm": 60,
+    "seconds": 64.0,
+    "peak": 0.4661,
+    "rms": 0.105
+  },
+  {
+    "world": "2",
+    "title": "Тёплое сердце пламени",
+    "file": "assets/music/2.mp3",
+    "bpm": 76,
+    "seconds": 50.53,
+    "peak": 0.4417,
+    "rms": 0.105
+  },
+  {
+    "world": "3",
+    "title": "Лес, который помнит",
+    "file": "assets/music/3.mp3",
+    "bpm": 68,
+    "seconds": 56.47,
+    "peak": 0.4702,
+    "rms": 0.105
+  },
+  {
+    "world": "4",
+    "title": "Песня речной долины",
+    "file": "assets/music/4.mp3",
+    "bpm": 66,
+    "seconds": 58.18,
+    "peak": 0.4364,
+    "rms": 0.105
+  },
+  {
+    "world": "5",
+    "title": "Розы под землёй",
+    "file": "assets/music/5.mp3",
+    "bpm": 64,
+    "seconds": 60.0,
+    "peak": 0.4418,
+    "rms": 0.105
+  },
+  {
+    "world": "6",
+    "title": "На полях созвездий",
+    "file": "assets/music/6.mp3",
+    "bpm": 54,
+    "seconds": 71.11,
+    "peak": 0.4704,
+    "rms": 0.105
+  },
+  {
+    "world": "7",
+    "title": "Тишина хрустального дворца",
+    "file": "assets/music/7.mp3",
+    "bpm": 54,
+    "seconds": 71.11,
+    "peak": 0.4251,
+    "rms": 0.105
+  },
+  {
+    "world": "8",
+    "title": "Час, который не кончается",
+    "file": "assets/music/8.mp3",
+    "bpm": 56,
+    "seconds": 68.57,
+    "peak": 0.4714,
+    "rms": 0.105
+  },
+  {
+    "world": "9",
+    "title": "Шёпот забытых имён",
+    "file": "assets/music/9.mp3",
+    "bpm": 58,
+    "seconds": 66.21,
+    "peak": 0.4724,
+    "rms": 0.105
+  },
+  {
+    "world": "10",
+    "title": "Отражённый лунный свет",
+    "file": "assets/music/10.mp3",
+    "bpm": 56,
+    "seconds": 68.57,
+    "peak": 0.4686,
+    "rms": 0.105
+  },
+  {
+    "world": "11",
+    "title": "Между мирами",
+    "file": "assets/music/11.mp3",
+    "bpm": 60,
+    "seconds": 64.0,
+    "peak": 0.4453,
+    "rms": 0.105
+  }
+]

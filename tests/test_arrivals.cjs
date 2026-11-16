@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const context={window:{}};vm.runInNewContext(fs.readFileSync('web/arrivals.js','utf8'),context);
+const arrival=context.window.arrivalFor;
+const before={started:true,node:'threshold',bg:'11',kind:'scene'},after={started:true,node:'lady',bg:'0',kind:'scene'};
+assert.match(arrival(before,after).text,/Я переступила порог/);
+assert.equal(arrival(after,{...after,node:'threshold_workshop'}),null,'no extra card in the same world');
+assert.equal(arrival(after,after),null,'no repeat for another line');
+assert.equal(arrival(before,{...after,kind:'ending'}),null);
+assert.equal(arrival({...before,started:false},after),null);
+assert.equal(arrival(after,before),null,'door keeps its unskippable cinematic');
+for(const world of ['0','2','3','4','5','6','7','8','9','10'])assert.ok(arrival(before,{...after,bg:world}));
+console.log('PASS: 10 world bridges, same-world and repeated lines excluded, door cinematic preserved');

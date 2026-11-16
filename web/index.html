@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14121f">
+  <title>Между мирами — Осколки ключа</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/branding/icon-key-32.png">
+  <link rel="apple-touch-icon" href="assets/branding/icon-key-180.png">
+  <link rel="manifest" href="web/app.webmanifest?v=4.4">
+  <link rel="stylesheet" href="web/style.css?v=4.0">
+  <link rel="stylesheet" href="web/edition2.css?v=4.0">
+  <link rel="stylesheet" href="web/edition3.css?v=4.0">
+  <link rel="stylesheet" href="web/staging.css?v=4.6">
+  <link rel="stylesheet" href="web/branding.css?v=4.1">
+  <link rel="stylesheet" href="web/media.css?v=4.7">
+  <script defer src="web/i18n.js?v=4.5"></script>
+  <script defer src="web/music.js?v=4.0"></script>
+  <script defer src="web/effects.js?v=4.0"></script>
+  <script defer src="web/background.js?v=4.0"></script>
+  <script defer src="web/camera.js?v=4.0"></script>
+  <script defer src="web/arrivals.js?v=4.0"></script>
+  <script defer src="web/app.js?v=4.7"></script>
+</head>
+<body>
+  <div id="backdrop" aria-hidden="true">
+    <video id="world-video" muted loop playsinline preload="metadata"></video>
+    <video id="world-video-next" muted playsinline preload="auto" aria-hidden="true"></video>
+    <div class="world-shade"></div><div class="grain"></div>
+    <div class="mote m1"></div><div class="mote m2"></div><div class="mote m3"></div><div class="mote m4"></div>
+  </div>
+  <header class="topbar">
+    <button class="brand" id="brand" aria-label="Главное меню"><img class="brand-logo" src="assets/branding/icon-key-192.png" alt="" width="48" height="48"><span>МЕЖДУ МИРАМИ<small>ИНТЕРАКТИВНАЯ НОВЕЛЛА</small></span></button>
+    <nav aria-label="Меню игры">
+      <button id="wardrobe-button" class="nav-button" aria-label="Гардероб"><span>♧</span> <span class="nav-label">Гардероб</span></button>
+      <button id="journal-button" class="nav-button" aria-label="Дневник"><span>▤</span> <span class="nav-label">Дневник</span><i id="clue-count">0</i></button>
+      <button id="saves-button" class="nav-button" aria-label="Сохранения"><span>◇</span> <span class="nav-label">Сохранения</span></button>
+      <button id="sound-button" class="icon-button" title="Включить звук" aria-label="Включить звук">♫<span class="sound-off">/</span></button>
+      <button id="settings-button" class="icon-button" title="Настройки" aria-label="Настройки">⚙</button>
+    </nav>
+  </header>
+  <main>
+    <section id="world-arrival" hidden aria-label="Переход в другой мир">
+      <div class="arrival-copy"><span class="arrival-ornament" aria-hidden="true">✧</span><p class="tiny-label">МОЙ ПУТЬ</p><h2 id="arrival-title"></h2><p id="arrival-text"></p><button id="arrival-continue">Продолжить путь <span>→</span></button></div>
+    </section>
+    <button id="cinematic-continue" aria-label="Продолжить после перехода" disabled><span>Открывается дверь…</span></button>
+    <section id="home" aria-label="Главное меню">
+      <div class="home-copy">
+        <img class="home-emblem" src="assets/branding/icon-key-192.png" alt="" width="76" height="76">
+        <p class="eyebrow"><span></span> ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ</p>
+        <h1>Между<br><em>мирами</em><span class="title-star">✧</span></h1>
+        <div class="subtitle"><span></span> ОСКОЛКИ КЛЮЧА <span></span></div>
+        <p class="intro">Одна дверь. Десять встреч.<br>И выбор, который никто не сделает за тебя.</p>
+        <div class="home-actions">
+          <button class="button primary" id="start-button">Начать историю <span>↗</span></button>
+          <button class="button secondary" id="continue-button" hidden>Продолжить <span>→</span></button>
+        </div>
+        <button class="text-button" id="characters-button">Познакомиться с миром <span>→</span></button>
+        <div class="home-meta"><span>✧ Фэнтези</span><span>♡ Отношения</span><span>◇ 4 концовки</span></div>
+      </div>
+      <div class="home-art" aria-hidden="true"><div class="halo"></div><div id="home-hero" class="sprite"></div><span class="orbit-star s1">✧</span><span class="orbit-star s2">✦</span></div>
+      <div class="character-note"><span class="tiny-label">ТВОЁ ОТРАЖЕНИЕ</span><strong>Арти</strong><p>«Мой путь начинается с меня».</p><span class="note-line"></span></div>
+      <footer class="home-footer"><span><b>01</b> / 06 <span class="footer-separator"></span> По ту сторону двери</span><span>Твои решения меняют историю <span class="gold">✦</span></span></footer>
+    </section>
+    <section id="game" hidden aria-label="История">
+      <div id="camera-dragpad" tabindex="0" role="region" aria-label="Перемещать вид: стрелки или перетаскивание, плюс и минус — масштаб, ноль — центр"></div>
+      <div class="camera-controls" aria-label="Камера мира"><p>Потяни мир мышью или пальцем · колёсико — ближе</p><div class="camera-presets"><button data-camera="left">← Левый вид</button><button data-camera="center">◎ Центр</button><button data-camera="right">Правый вид →</button><button data-camera="wide">Общий план</button></div><label>Масштаб <input id="camera-zoom" type="range" min="104" max="185" value="112" aria-label="Масштаб мира"><output id="camera-value">112%</output></label></div>
+      <div class="scene-tools"><button id="sidebar-toggle" aria-expanded="true" aria-controls="chapter-sidebar" title="Свернуть боковую панель">☷ <span>Панель</span></button><button id="scenery-toggle" aria-pressed="false">◇ <span>Осмотреть мир</span></button></div>
+      <aside class="chapter-side" id="chapter-sidebar"><span class="tiny-label" id="chapter-label"></span><h2 id="chapter-name"></h2><div id="chapter-progress"></div><div class="stats"><div><span>✦ Смелость</span><strong id="courage">0</strong></div><div><span>✧ Чуткость</span><strong id="insight">0</strong></div></div><div class="shards"><span class="tiny-label">ОСКОЛКИ КЛЮЧА</span><div id="shard-icons"></div></div></aside>
+      <div id="hero-stage" class="actor-stage"><div id="hero-sprite" class="sprite"></div><div class="actor-mood" id="hero-mood"></div></div>
+      <div id="portrait-wrap" class="actor-stage"><img id="portrait" alt=""><div id="npc-sprite" class="sprite" hidden></div><div class="portrait-caption"><strong id="portrait-name"></strong><span id="portrait-title"></span></div><div class="actor-mood" id="npc-mood"></div></div>
+      <article class="story-panel" id="story-panel">
+        <span class="panel-gem" aria-hidden="true"></span>
+        <div class="dialogue-header"><div class="speaker-group"><span id="world-sigil" aria-hidden="true">◇</span><span class="voice-indicator" aria-hidden="true"><i></i><i></i><i></i></span><span id="speaker"></span><span id="speaker-mood"></span></div><span id="beat-count"></span></div>
+        <p id="dialogue" aria-live="polite"></p>
+        <div id="effect-list"></div>
+        <div id="choices" class="choices"></div>
+        <div id="puzzle" hidden></div>
+        <div class="dialogue-footer"><button class="text-button" id="history-button">↶ История диалогов</button><button class="text-button" id="choice-back" hidden>↶ К реплике</button><button class="next-button" id="next-button">Далее <span>→</span></button></div>
+      </article>
+      <div class="game-bottom"><span id="save-status">◈ Прогресс сохраняется автоматически</span><span>Пробел — дальше <span class="dot">·</span> J — дневник</span></div>
+    </section>
+    <section id="ending" hidden aria-label="Конец истории"></section>
+  </main>
+  <dialog id="modal"><div class="modal-shell"><div class="modal-heading"><div><span class="tiny-label" id="modal-kicker"></span><h2 id="modal-title"></h2></div><button id="close-modal" class="icon-button" aria-label="Закрыть">×</button></div><div id="modal-content"></div></div></dialog>
+  <div id="toast" role="status" hidden></div>
+  <div id="loading" class="loading"><img class="brand-logo" src="assets/branding/icon-key-192.png" alt="" width="48" height="48"><p>Открываем дверь между мирами…</p></div>
+  <noscript>Для игры нужно включить JavaScript в браузере. Сюжет и сохранения обрабатывает Python на твоём компьютере.</noscript>
+</body>
+</html>

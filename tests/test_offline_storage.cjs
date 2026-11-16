@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),Game=require('../android/offline-engine.js');
+const data=JSON.parse(fs.readFileSync('android/build/debug/assets/site/story.json','utf8'));
+let raw=null,fail=false;const storage={getItem:()=>raw,setItem:(_,v)=>{if(fail)throw Error('Storage full');raw=v;}};
+let game=new Game(data,storage);
+game.act({action:'new',name:'Arty',revision:0});
+game.act({action:'save',slot:'1',revision:1});
+const before=JSON.stringify(game.record),persisted=raw;
+fail=true;assert.throws(()=>game.act({action:'dress',look:'moon',revision:2}),/Storage full/);
+assert.equal(JSON.stringify(game.record),before);assert.equal(raw,persisted);
+fail=false;game=new Game(data,storage);assert.equal(game.state.name,'Arty');assert.ok(game.slots().find(s=>s.slot==='1').exists);
+game.act({action:'dress',look:'moon',revision:2});
+game.act({action:'load',slot:'1',revision:3});assert.equal(game.state.look,'voyage');
+assert.throws(()=>game.act({action:'advance',revision:0}),/Прогресс/);
+raw='{broken';assert.throws(()=>new Game(data,storage));assert.equal(raw,'{broken');
+console.log('Offline storage: atomic rollback, restart, slots, revision guard and corrupt data preservation passed.');

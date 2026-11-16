@@ -1,0 +1,95 @@
+/* Portraits occupy the foreground; feet are never placed on painted furniture. */
+/* Rapid story taps are clicks, not browser double-tap zoom. Keep pinch zoom and scrolling. */
+:where(*){touch-action:manipulation}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body.playing{overflow:hidden}
+body.playing.scenery-mode #hero-stage,body.playing.scenery-mode #portrait-wrap,body.playing.scenery-mode #story-panel{display:none!important}
+/* The door is a directed shot, independent of the exploration camera zoom. */
+body.playing[data-world='11'] #backdrop{transform:none;transition:none}
+@media(orientation:landscape){
+ body.playing[data-world='11'][data-door-portrait='true'] #world-video{object-fit:contain}
+}
+body.ending-screen{overflow-x:hidden;overflow-y:auto}
+body.ending-screen #ending{padding-bottom:max(32px,env(safe-area-inset-bottom))}
+#backdrop{overflow:hidden;background-position:center;inset:-2px}
+#world-video,#world-video-next{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1!important}
+#world-video-next{opacity:0!important;pointer-events:none}
+#world-video-next.crossfade{opacity:1!important;transition:opacity 1.4s linear}
+body.playing .world-shade{background:linear-gradient(0deg,#10101a88,transparent 48%),linear-gradient(90deg,#14111a33,transparent 35%,#14111a22)}
+#game{height:calc(100dvh - 101px);min-height:0}
+body.playing .story-panel,body.playing .story-panel.puzzle-panel{position:fixed;top:auto;bottom:38px;left:50%;right:auto;transform:translateX(-50%);width:min(500px,78vw);margin:0;padding:18px 25px 9px;max-height:55dvh;overflow:auto;z-index:4;scrollbar-width:thin}
+.story-panel #dialogue{font-size:calc(18px * var(--font-scale));min-height:0;line-height:1.5;margin:13px 0 16px}
+.story-panel .dialogue-footer{margin-top:9px;min-height:35px}.story-panel .choices{grid-template-columns:1fr;margin:10px 0;gap:7px}
+.story-panel .choice{min-height:46px;padding:9px 12px}.story-panel .choice-copy strong{font-size:calc(12px * var(--font-scale))}
+.story-panel.puzzle-panel .rune-slots{position:static;margin:12px 0}.story-panel.puzzle-panel .rune-options{max-width:none}.story-panel .rune-actions{gap:10px}
+.actor-mood{display:none!important}
+body.playing #hero-stage,body.playing #portrait-wrap{position:fixed;top:17dvh;bottom:auto;height:130dvh;width:40vw;opacity:1;overflow:hidden;filter:none;transition:opacity .2s;pointer-events:none}
+body.playing #hero-stage{left:0;right:auto}body.playing #portrait-wrap{right:0;left:auto}
+body.playing #hero-stage.solo{left:auto;right:8vw;width:43vw}
+body.playing[data-framing=close] #hero-stage,body.playing[data-framing=close] #portrait-wrap{height:150dvh;top:14dvh}
+body.playing[data-world=room-v2] #hero-stage{height:155dvh;top:19dvh;right:10vw;left:auto;width:45vw}
+.actor-stage>.sprite,.actor-stage.active>.sprite{filter:brightness(.9) saturate(.92) drop-shadow(8px 14px 13px #08081455);mask-image:linear-gradient(#000 72%,transparent 97%)}
+[data-world='2'] .actor-stage>.sprite,[data-world='5'] .actor-stage>.sprite{filter:brightness(.93) sepia(.1) saturate(.93) drop-shadow(8px 14px 13px #24100b55)}
+[data-world='7'] .actor-stage>.sprite,[data-world='10'] .actor-stage>.sprite,[data-world='6'] .actor-stage>.sprite{filter:brightness(.79) saturate(.84) drop-shadow(8px 14px 13px #080e2355)}
+.actor-stage .sprite{animation:none!important}.actor-stage.speaking .sprite{animation:subtle-breath 6s ease-in-out infinite!important}
+@keyframes subtle-breath{50%{transform:scaleY(1.002)}}
+.chapter-side{padding:14px;background:#171420a1;border:1px solid #dcc19b2b;border-radius:8px;backdrop-filter:blur(10px)}
+.scene-tools button{font-family:inherit;font-size:11px;line-height:1.4}
+#cinematic-continue{display:none;position:fixed;inset:101px 0 0;z-index:7;width:100%;border:0;background:transparent;align-items:end;justify-content:center;padding-bottom:45px}
+#cinematic-continue span{background:#171420bb;border:1px solid #ddc5a96b;border-radius:24px;padding:13px 24px;font-size:13px;backdrop-filter:blur(12px)}
+#cinematic-continue:disabled{opacity:1;cursor:default}
+.cinematic #cinematic-continue{display:flex}.cinematic .actor-stage,.cinematic .story-panel,.cinematic .chapter-side,.cinematic .scene-tools,.cinematic .location,.cinematic .game-bottom{opacity:0!important;pointer-events:none!important;visibility:hidden!important}
+.cinematic .world-shade{opacity:.15}.cinematic-ready #world-video{animation:door-rest 7s ease-in-out infinite}
+@keyframes door-rest{50%{transform:scale(1.006) translateY(-.4px)}}
+.wardrobe-emotions{display:flex;flex-wrap:wrap;gap:6px}.wardrobe-emotions button{border:1px solid #c3adc055;border-radius:6px;background:#69516f40;font-size:10px;padding:8px}
+.wardrobe-emotions [aria-pressed=true]{border-color:#edd0a4;background:#b3916144}
+.wardrobe-mirror{padding-bottom:48px}
+@media(min-width:1500px){body.playing #hero-stage{left:3vw}body.playing #portrait-wrap{right:3vw}body.playing .story-panel{width:500px}}
+@media(max-width:900px){#game{height:calc(100dvh - 80px)}body.playing #hero-stage,body.playing #portrait-wrap{width:47vw;height:120dvh;top:19dvh}body.playing .story-panel,body.playing .story-panel.puzzle-panel{width:min(460px,78vw);bottom:27px}#cinematic-continue{top:80px}}
+@media(max-width:600px){
+ body.playing #hero-stage,body.playing #portrait-wrap,body.playing #hero-stage.solo,body.playing[data-framing=close] #hero-stage,body.playing[data-framing=close] #portrait-wrap,body.playing[data-world=room-v2] #hero-stage{left:50%;right:auto;translate:0 0;transform:translateX(-50%);width:92vw;height:125svh;top:20svh;opacity:0;visibility:hidden;transition:opacity .28s ease-out,visibility 0s linear .28s}
+ body.playing[data-speaker=hero] #hero-stage,body.playing[data-speaker=narrator] #hero-stage,body.playing[data-speaker=npc] #portrait-wrap{opacity:1;visibility:visible;transition:opacity .38s ease-in-out .18s,visibility 0s linear .18s}
+ body.playing .story-panel,body.playing .story-panel.puzzle-panel{width:min(360px,calc(100vw - 36px));bottom:max(22px,env(safe-area-inset-bottom));padding:12px 16px 7px;max-height:44dvh;display:flex;flex-direction:column;overflow:hidden}
+ .story-panel .dialogue-header,.story-panel .dialogue-footer{flex-shrink:0}
+ .story-panel #dialogue,.story-panel #choices,.story-panel #puzzle{min-height:0;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y pinch-zoom;scrollbar-width:thin}
+ .story-panel #dialogue{flex:0 1 auto}
+ .story-panel #choices,.story-panel #puzzle{flex:1 1 auto}
+ .story-panel #effect-list:empty{display:none}
+ .story-panel.choosing #history-button{display:none}
+ .story-panel.choosing .dialogue-footer{justify-content:flex-start}
+ .story-panel .dialogue-footer button{min-height:40px}
+ .story-panel .next-button{display:inline-flex;align-items:center;gap:9px;white-space:nowrap;padding:8px 0 8px 10px;flex-shrink:0}
+ .story-panel .next-button span{padding-left:0}
+ .story-panel #history-button{text-align:left;line-height:1.4}
+ .location{background:#171420a8;padding:5px 8px;border-radius:5px;text-shadow:0 1px 2px #000}
+ .topbar{background:#171420e8}
+ .story-panel #dialogue{font-size:calc(16px * var(--font-scale));margin:10px 0 12px;line-height:1.45}.story-panel .choice{min-height:45px}.story-panel .dialogue-footer{margin-top:5px}.story-panel .dialogue-header{gap:5px}.story-panel #speaker-mood{display:none}
+ .chapter-side{z-index:5;width:170px;top:60px!important}.chapter-side .stats,.chapter-side .shards{display:block!important}.game-bottom{font-size:8px;padding:7px 15px}.game-bottom>span:last-child{display:none}.location{top:61px;max-width:165px}.topbar{padding:0 16px}.brand{gap:7px;font-size:8px}.brand-mark{font-size:28px}.topbar nav{gap:10px}.nav-button i{display:none}#cinematic-continue{top:72px}
+}
+@media(max-width:900px),(pointer:coarse){
+ .actor-stage>.sprite,.actor-stage.active>.sprite{filter:none!important}
+ .actor-stage.speaking .sprite{animation:none!important}
+ .story-panel,.ending-card,.modal-shell{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+ .topbar,.chapter-side,.scene-tools button{backdrop-filter:none;-webkit-backdrop-filter:none}
+ .grain,.mote{display:none}
+ #backdrop{will-change:auto}
+}
+@media(max-height:550px){body.playing .story-panel,body.playing .story-panel.puzzle-panel{max-height:55dvh;bottom:15px}.story-panel #dialogue{font-size:15px}body.playing #hero-stage,body.playing #portrait-wrap{top:16svh;height:160svh}.game-bottom{display:none}}
+@media(prefers-reduced-motion:reduce){.actor-stage.speaking .sprite,.cinematic-ready #world-video{animation:none!important}#world-video-next.crossfade{transition:none}}
+.no-character-motion .actor-stage.speaking .sprite{animation:none!important}
+#world-arrival{position:fixed;inset:0;z-index:9;display:grid;place-items:center;padding:30px;background:linear-gradient(0deg,#11101ae8,#11101a92 50%,#11101adb);backdrop-filter:blur(3px)}
+.arrival-copy{width:min(470px,100%);text-align:center;animation:arrival-appear .65s ease both}.arrival-ornament{color:var(--world-accent);font:36px Georgia}.arrival-copy .tiny-label{color:var(--world-accent);font-size:9px;letter-spacing:4px;margin:20px 0 12px}.arrival-copy h2{font:normal 32px/1.25 Georgia;margin:0 0 23px;color:#eee3d8}.arrival-copy #arrival-text{font:19px/1.8 Georgia;color:#e1d6db;margin:0;text-wrap:pretty}.arrival-copy button{margin-top:30px;border:0;border-top:1px solid #e0c7a454;padding:16px 20px;background:transparent;color:var(--world-accent);font-size:12px;letter-spacing:.5px}.arrival-copy button span{margin-left:24px}
+.arrival-active .actor-stage,.arrival-active .story-panel,.arrival-active .chapter-side,.arrival-active .scene-tools,.arrival-active .game-bottom,.arrival-active .location{visibility:hidden!important}
+@keyframes arrival-appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:600px){#world-arrival{padding:34px}.arrival-copy h2{font-size:27px}.arrival-copy #arrival-text{font-size:17px;line-height:1.7}}
+@media(prefers-reduced-motion:reduce){.arrival-copy{animation:none}}
+
+
+/* Language controls and reduced-motion actor transitions share one policy. */
+.language-setting select{max-width:135px;border:1px solid #c7b29766;border-radius:7px;padding:10px;background:#211a2e;color:#f3ece1;font:inherit;flex-shrink:0}
+.language-setting>span{min-width:0;padding-right:12px}
+body.no-character-motion #hero-stage,body.no-character-motion #portrait-wrap{transition:none!important}
+@media(prefers-reduced-motion:reduce){body.playing #hero-stage,body.playing #portrait-wrap{transition:none!important}}
+@media(max-width:600px){.language-setting select{max-width:135px;font-size:16px}.brand>span{max-width:120px}.home-copy h1{font-size:clamp(50px,16vw,76px)}}
+/* Mobile Safari can zoom when small editable controls receive focus. */
+@media(max-width:900px),(pointer:coarse){#modal input:not([type=checkbox]):not([type=range]),#modal select,#modal textarea{font-size:16px}}

@@ -1,0 +1,254 @@
+[
+  {
+    "key": "hero-voyage",
+    "source": "art_sources\\v3\\hero-voyage-original.png",
+    "file": "assets\\characters\\v3\\hero-voyage.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 60.92,
+    "prompt": "Use case: identity-preserve. Production 2D visual novel sprite sheet for Между мирами. Inputs: image 1 real photo is identity; image 2 user's illustrated portrait is supporting likeness reference only. Preserve recognizable face shape, brown almond eyes, nose and beauty mark, long black hair, natural age. Create exactly TWO full-body figures of this same heroine side by side, two equal cells; each from top of head to BOTH SHOES, no cropping. Same front three-quarter relaxed standing pose, hands and costume, consistent head/feet alignment. Left face calm attentive; right face warm small smile. Original crisp hand-drawn 2D character art with refined ink contours, cel-shaded shapes and subtle painted detail, elegant fantasy visual novel, NOT photorealistic, NO blur, NO bloom, NO rim light. Modest outfit: tailored midnight-blue traveller's coat with cream lining, copper clasps, fitted ivory blouse, dark high-waisted trousers, lace-up brown ankle boots, small silver heart pendant, leather sketchbook satchel. Long loose straight black hair, natural face, minimal makeup. Both figures fully separated with ample empty space, each figure entirely within its half; no character touches a cell border, no overlap. Canvas requested 2048x2048 or higher; sharp eyes and eyelashes. Transparent real alpha background with NO grid, NO checkerboard, NO white fringe or outer glow. If actual alpha cannot be output, use only a completely flat pure saturated green #00ff00 backdrop, never gray or white; no green in costume, no shadows on backdrop. No text, no logos, no additional objects. Each figure should use 90 percent canvas height with at least 5 percent margin at top and bottom, silhouette width less than 38 percent of entire canvas."
+  },
+  {
+    "key": "lady",
+    "source": "art_sources\\v3\\lady-original.png",
+    "file": "assets\\characters\\v3\\lady.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 56.03,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A mature woman with a short ink-black angular bob and silver hair streak, warm amber eyes, thoughtful brows. Ivory long structured coat over oxblood high-neck tunic, dark plum wide trousers, copper key-ring brooch and flat shoes. Holds one slender folded brass measuring ruler at her side. Asymmetric geometric doorway embroidery. No crown, no wings, no green dress."
+  },
+  {
+    "key": "fiery",
+    "source": "art_sources\\v3\\fiery-original.png",
+    "file": "assets\\characters\\v3\\fiery.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 59.61,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A freckled woman with cropped copper curls and sturdy build. Charcoal sleeveless work vest over a burnt-orange long-sleeved shirt, practical dark trousers, leather forge apron with brass tools, heavy boots, dark red wristwraps. A small blue crystal soldering pen at belt. Friendly confident face. No flames attached to body, no crown, no revealing dress."
+  },
+  {
+    "key": "loony",
+    "source": "art_sources\\v3\\loony-original.png",
+    "file": "assets\\characters\\v3\\loony.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 64.81,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A woman with a long thick chestnut braid and hazel eyes, a small leaf-shaped brass ear cuff. Ochre short cape over muted teal tailored explorer's jacket, cream shirt, rust culottes, dark knee-high boots, rolled maps in cylindrical leather case at belt. Human rounded ears. Curious gentle face. No silver hair, no elf ears, no circlet, no gown."
+  },
+  {
+    "key": "lovely",
+    "source": "art_sources\\v3\\lovely-original.png",
+    "file": "assets\\characters\\v3\\lovely.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 62.28,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A dark-haired woman with short wavy navy-black hair, warm olive complexion. Sleeveless deep indigo vest over pale blue billowing long sleeves, ivory pleated practical long skirt with indigo hems, soft brown boots. Wooden reed flute in one lowered hand, little shell buttons. No crown, no ballgown. Kind playful expression."
+  },
+  {
+    "key": "merry",
+    "source": "art_sources\\v3\\merry-original.png",
+    "file": "assets\\characters\\v3\\merry.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 60.92,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A warm brown-skinned woman with short soft auburn curls, expressive dark eyes, a gold small septum ring. Terracotta wrap jacket, cream high-collar shirt, deep midnight-blue broad trousers, copper leaf clasps, sturdy boots, botanical notebooks in a hip pouch. Subtle red embroidery. No rose crown, no long black hair, no black-red gown. Warm candid expression."
+  },
+  {
+    "key": "may",
+    "source": "art_sources\\v3\\may-original.png",
+    "file": "assets\\characters\\v3\\may.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 63.64,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A woman with a silver pixie haircut, dark eyes and a few freckles. Navy long split-tail coat with thin gold star-chart piping, pale lavender shirt, dark fitted trousers and buckled boots. A brass compact astrolabe hung at belt, round small glasses. Precise calm posture. No crown, no wings, no glitter aura."
+  },
+  {
+    "key": "frozy",
+    "source": "art_sources\\v3\\frozy-original.png",
+    "file": "assets\\characters\\v3\\frozy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 62.66,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A broad-shouldered pale woman with long blue-black hair in a thick low braid and straight brows. Slate-blue quilted fitted coat, asymmetric ivory wool scarf, dark cyan trousers, silver laced snow boots. Frosted glass pendant and small wood carving chisel sheathed at belt. No ice crown, no princess gown, no pale blonde hair. Reserved but gentle."
+  },
+  {
+    "key": "ivy",
+    "source": "art_sources\\v3\\ivy-original.png",
+    "file": "assets\\characters\\v3\\ivy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 59.65,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A middle-aged woman with brown complexion, shoulder-length salt-and-pepper curls and a calm wry face. Aubergine waistcoat over white rolled-sleeve blouse, long dark olive divided skirt, brown boots, brass watch chains and amber lens pinned to lapel. Small closed clockwork case in lowered hand. No queen gown, no crown, no wings."
+  },
+  {
+    "key": "spidy",
+    "source": "art_sources\\v3\\spidy-original.png",
+    "file": "assets\\characters\\v3\\spidy.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 61.33,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A slender woman with warm tan skin, an asymmetrical long black braid and teal hair ribbon, thoughtful gray eyes. Cream structured jacket over dark teal high-neck dress falling below knees, burgundy sash with folded letters, soft oxblood boots, small ink stains on cuffs. Holds a closed blue letterbook. No spider theme, no crown, no exotic princess dress."
+  },
+  {
+    "key": "moony",
+    "source": "art_sources\\v3\\moony-original.png",
+    "file": "assets\\characters\\v3\\moony.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "original-alpha",
+    "transparent_percent": 64.35,
+    "prompt": "Use case: stylized-concept. Original character design for 2D fantasy visual novel Между мирами. Production sprite sheet, exactly TWO full-body figures of the SAME character side by side in two equal cells on a square 2048x2048 or higher canvas. BOTH SHOES and entire hair visible, 5 percent empty top and bottom margin, generous empty gutter, each figure narrower than 38 percent canvas width, no overlap or touching cell borders. Identical front three-quarter standing pose, outfit and scale in both; only expressions differ: LEFT composed attentive neutral, RIGHT warm genuine small smile. Crisp refined ink linework with elegant cel shading, hand-drawn 2D fantasy storybook game art, detailed faces, no blur, no photographic rendering, no bloom or rim light. True alpha transparent background, NO checkerboard or grid. If real alpha cannot be output, use exactly solid pure green #00ff00 background with zero shadows, not white or gray; keep costume free of saturated green. No ground, no text, no labels or logos. Character: A tall woman with deep brown skin, dark eyes and a closely cropped natural black hairstyle with a silver line at temple. Ink-blue long tunic with off-center silver buttons, pearl gray half-cape over one shoulder, practical slim black trousers and silver-trim dark boots. A brass hand-lantern with moonstone glass at waist. No purple braids, no crescent crown, no starry ballgown. Quietly reassuring."
+  },
+  {
+    "key": "hero-woodland",
+    "source": "art_sources\\v3\\hero-woodland-original.png",
+    "file": "assets\\characters\\v3\\hero-woodland.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 60.65,
+    "prompt": "Use case: identity-preserve. Edit the supplied TWO-CELL FULL-BODY heroine sprite sheet. Keep the same recognizable woman's exact face and identity, calm expression on left and gentle smile on right, full body including both boots, unchanged figure positions, margins, head scale and crisp 2D ink/cel-shaded style. Replace ONLY the wardrobe and hairstyle with: a modest terracotta pinafore midi dress over an ivory long-sleeved blouse, fitted waist, dark brown lace-up calf boots, small leather herb satchel. Black hair in a half-up braided hairstyle with the rest flowing down her back. Very subtle rosy cheeks and natural rose lip tint. Keep heart pendant. Do not change the facial identity, pose, or framing. Two figures must stay completely separate and within their two equal cells. Request square 2048x2048 or higher. Transparent real alpha background without any checkerboard, white or halo. If alpha cannot be output, retain completely flat saturated green #00ff00 as in reference with no shadow. No white outline, no bloom, no blur, no text."
+  },
+  {
+    "key": "hero-moon",
+    "source": "art_sources\\v3\\hero-moon-original.png",
+    "file": "assets\\characters\\v3\\hero-moon.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 57.2,
+    "prompt": "Use case: identity-preserve. Edit the supplied TWO-CELL FULL-BODY heroine sprite sheet. Keep the same recognizable woman's exact face and identity, calm expression on left and gentle smile on right, full body including both boots, unchanged figure positions, margins, head scale and crisp 2D ink/cel-shaded style. Replace ONLY the wardrobe and hairstyle with: a modest silver-blue ankle-length layered dress with high neckline, long sheer-over-lined sleeves, short ink-blue capelet, flat dark ankle boots with silver clasps. Black hair in a neat low loosely braided bun with two face-framing strands. Very subtle fine eyeliner and soft mauve lip tint. Keep heart pendant. Do not change the facial identity, pose, or framing. Two figures must stay completely separate and within their two equal cells. Request square 2048x2048 or higher. Transparent real alpha background without any checkerboard, white or halo. If alpha cannot be output, retain completely flat saturated green #00ff00 as in reference with no shadow. No white outline, no bloom, no blur, no text."
+  },
+  {
+    "key": "hero-voyage-calm",
+    "source": "art_sources\\v3\\hero-voyage-calm-original.png",
+    "file": "assets\\characters\\v3\\hero-voyage-calm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 59.8,
+    "prompt": "Use case: identity-preserve. Inputs: real photograph defines exact woman's identity, existing 2D sprite defines illustration style ONLY, not its tilted pose. Make a production 2D full-body heroine sprite sheet. EXACTLY TWO cells on square 2048x2048 or higher canvas, with the SAME woman in each, separated by generous gutter. CRITICAL CORRECT STANCE: straight upright balanced frontal standing, head vertical and level, spine vertical, shoulders horizontally level, hips level, legs uncrossed with both knees straight, feet parallel and slightly apart carrying equal weight, no contrapposto, no tilted head, no leaned torso, no twisted hip. Arms relaxed symmetrically at sides, hands visible. Whole body from hair top to BOTH FLAT BOOT SOLES entirely visible. Preserve same recognizable face, brown almond eyes, small beauty mark by nose, long black hair, silver heart pendant. Outfit and styling: midnight-blue travel coat with cream lining over ivory blouse, dark tailored trousers, brown flat lace-up ankle boots, sketchbook satchel, long loose black hair and natural makeup. LEFT: calm attentive closed mouth. RIGHT: clearly happy warm small smile, softly raised cheeks. Identical body pose, hand positions, costume, hair silhouette, lighting, head scale and alignment in both cells; only expression changes. Crisp elegant 2D ink linework and cel shading, refined face detail, no blur, no photographic rendering, no bloom, no rim light. Head at 5 percent height, shoe soles at 95 percent height, figure centered at 25 percent and 75 percent canvas width, maximal figure width 36 percent of canvas. Real alpha transparency, NO white edges or checkerboard. If actual alpha cannot be encoded use only flat saturated green #00ff00 background with no shadow. No text or labels."
+  },
+  {
+    "key": "hero-voyage-intense",
+    "source": "art_sources\\v3\\hero-voyage-intense-original.png",
+    "file": "assets\\characters\\v3\\hero-voyage-intense.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 59.75,
+    "prompt": "Edit this exact two-cell full-body 2D sprite sheet. STRICT: only change eyebrows, eyes and mouth facial expressions within each face; keep all body pixels, identity, costume, hair, height, position, hands, bag position, upright stance, canvas size, cell centers and lighting unchanged. LEFT face clearly worried/surprised, raised inner eyebrows, slightly parted lips, no smile. RIGHT face determined serious resolve, slightly drawn brows and firm closed mouth, no smile. Same crisp 2D linework. Keep flat solid saturated #00ff00 green background unchanged, no new text, no checkerboard, no shadows or edge glow."
+  },
+  {
+    "key": "hero-woodland-calm",
+    "source": "art_sources\\v3\\hero-woodland-calm-original.png",
+    "file": "assets\\characters\\v3\\hero-woodland-calm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 61.67,
+    "prompt": "Use case: identity-preserve. Inputs: real photograph defines exact woman's identity, existing 2D sprite defines illustration style ONLY, not its tilted pose. Make a production 2D full-body heroine sprite sheet. EXACTLY TWO cells on square 2048x2048 or higher canvas, with the SAME woman in each, separated by generous gutter. CRITICAL CORRECT STANCE: straight upright balanced frontal standing, head vertical and level, spine vertical, shoulders horizontally level, hips level, legs uncrossed with both knees straight, feet parallel and slightly apart carrying equal weight, no contrapposto, no tilted head, no leaned torso, no twisted hip. Arms relaxed symmetrically at sides, hands visible. Whole body from hair top to BOTH FLAT BOOT SOLES entirely visible. Preserve same recognizable face, brown almond eyes, small beauty mark by nose, long black hair, silver heart pendant. Outfit and styling: terracotta modest pinafore midi dress over ivory long-sleeved blouse, brown flat lace-up calf boots, leather satchel with small herb sprig, black half-up braided hairstyle and very subtle rosy cheeks. LEFT: calm attentive closed mouth. RIGHT: clearly happy warm small smile, softly raised cheeks. Identical body pose, hand positions, costume, hair silhouette, lighting, head scale and alignment in both cells; only expression changes. Crisp elegant 2D ink linework and cel shading, refined face detail, no blur, no photographic rendering, no bloom, no rim light. Head at 5 percent height, shoe soles at 95 percent height, figure centered at 25 percent and 75 percent canvas width, maximal figure width 36 percent of canvas. Real alpha transparency, NO white edges or checkerboard. If actual alpha cannot be encoded use only flat saturated green #00ff00 background with no shadow. No text or labels."
+  },
+  {
+    "key": "hero-woodland-intense",
+    "source": "art_sources\\v3\\hero-woodland-intense-original.png",
+    "file": "assets\\characters\\v3\\hero-woodland-intense.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 61.73,
+    "prompt": "Edit this exact two-cell full-body 2D sprite sheet. STRICT: only change eyebrows, eyes and mouth facial expressions within each face; keep all body pixels, identity, costume, hair, height, position, hands, bag position, upright stance, canvas size, cell centers and lighting unchanged. LEFT face clearly worried/surprised, raised inner eyebrows, slightly parted lips, no smile. RIGHT face determined serious resolve, slightly drawn brows and firm closed mouth, no smile. Same crisp 2D linework. Keep flat solid saturated #00ff00 green background unchanged, no new text, no checkerboard, no shadows or edge glow."
+  },
+  {
+    "key": "hero-moon-calm",
+    "source": "art_sources\\v3\\hero-moon-calm-original.png",
+    "file": "assets\\characters\\v3\\hero-moon-calm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 58.84,
+    "prompt": "Use case: identity-preserve. Inputs: real photograph defines exact woman's identity, existing 2D sprite defines illustration style ONLY, not its tilted pose. Make a production 2D full-body heroine sprite sheet. EXACTLY TWO cells on square 2048x2048 or higher canvas, with the SAME woman in each, separated by generous gutter. CRITICAL CORRECT STANCE: straight upright balanced frontal standing, head vertical and level, spine vertical, shoulders horizontally level, hips level, legs uncrossed with both knees straight, feet parallel and slightly apart carrying equal weight, no contrapposto, no tilted head, no leaned torso, no twisted hip. Arms relaxed symmetrically at sides, hands visible. Whole body from hair top to BOTH FLAT BOOT SOLES entirely visible. Preserve same recognizable face, brown almond eyes, small beauty mark by nose, long black hair, silver heart pendant. Outfit and styling: silver-blue modest high-neck ankle-length dress with gold-free silver embroidery and long sleeves, small ink-blue capelet, dark flat ankle boots, black low braided bun with two loose face-framing strands, subtle fine eyeliner and soft mauve lips. LEFT: calm attentive closed mouth. RIGHT: clearly happy warm small smile, softly raised cheeks. Identical body pose, hand positions, costume, hair silhouette, lighting, head scale and alignment in both cells; only expression changes. Crisp elegant 2D ink linework and cel shading, refined face detail, no blur, no photographic rendering, no bloom, no rim light. Head at 5 percent height, shoe soles at 95 percent height, figure centered at 25 percent and 75 percent canvas width, maximal figure width 36 percent of canvas. Real alpha transparency, NO white edges or checkerboard. If actual alpha cannot be encoded use only flat saturated green #00ff00 background with no shadow. No text or labels."
+  },
+  {
+    "key": "hero-lilac-calm",
+    "source": "art_sources\\v3\\hero-lilac-calm-original.png",
+    "file": "assets\\characters\\v3\\hero-lilac-calm.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 51.74,
+    "prompt": "Use case: identity-preserve. Inputs: real photograph defines exact woman's identity, existing 2D sprite defines illustration style ONLY, not its tilted pose. Make a production 2D full-body heroine sprite sheet. EXACTLY TWO cells on square 2048x2048 or higher canvas, with the SAME woman in each, separated by generous gutter. CRITICAL CORRECT STANCE: straight upright balanced frontal standing, head vertical and level, spine vertical, shoulders horizontally level, hips level, legs uncrossed with both knees straight, feet parallel and slightly apart carrying equal weight, no contrapposto, no tilted head, no leaned torso, no twisted hip. Arms relaxed symmetrically at sides, hands visible. Whole body from hair top to BOTH FLAT BOOT SOLES entirely visible. Preserve same recognizable face, brown almond eyes, small beauty mark by nose, long black hair, silver heart pendant. Outfit and styling: midnight plum modest long-sleeved floor-length fantasy dress with fitted antique-gold embroidered bodice and gold belt ornaments, draped lavender cape, dark brown flat boots visible below hem, long loose black hair and natural makeup. LEFT: calm attentive closed mouth. RIGHT: clearly happy warm small smile, softly raised cheeks. Identical body pose, hand positions, costume, hair silhouette, lighting, head scale and alignment in both cells; only expression changes. Crisp elegant 2D ink linework and cel shading, refined face detail, no blur, no photographic rendering, no bloom, no rim light. Head at 5 percent height, shoe soles at 95 percent height, figure centered at 25 percent and 75 percent canvas width, maximal figure width 36 percent of canvas. Real alpha transparency, NO white edges or checkerboard. If actual alpha cannot be encoded use only flat saturated green #00ff00 background with no shadow. No text or labels."
+  },
+  {
+    "key": "hero-moon-intense",
+    "source": "art_sources\\v3\\hero-moon-intense-original.png",
+    "file": "assets\\characters\\v3\\hero-moon-intense.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 58.81,
+    "prompt": "Edit this exact two-cell full-body 2D sprite sheet. STRICT: only change eyebrows, eyes and mouth facial expressions within each face; keep all body pixels, identity, costume, hair, height, position, hands, bag position, upright stance, canvas size, cell centers and lighting unchanged. LEFT face clearly worried/surprised, raised inner eyebrows, slightly parted lips, no smile. RIGHT face determined serious resolve, slightly drawn brows and firm closed mouth, no smile. Same crisp 2D linework. Keep flat solid saturated #00ff00 green background unchanged, no new text, no checkerboard, no shadows or edge glow."
+  },
+  {
+    "key": "hero-lilac-intense",
+    "source": "art_sources\\v3\\hero-lilac-intense-original.png",
+    "file": "assets\\characters\\v3\\hero-lilac-intense.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "method": "green-matte",
+    "transparent_percent": 51.68,
+    "prompt": "Edit this exact two-cell full-body 2D sprite sheet. STRICT: only change eyebrows, eyes and mouth facial expressions within each face; keep all body pixels, identity, costume, hair, height, position, hands, bag position, upright stance, canvas size, cell centers and lighting unchanged. LEFT face clearly worried/surprised, raised inner eyebrows, slightly parted lips, no smile. RIGHT face determined serious resolve, slightly drawn brows and firm closed mouth, no smile. Same crisp 2D linework. Keep flat solid saturated #00ff00 green background unchanged, no new text, no checkerboard, no shadows or edge glow."
+  }
+]
