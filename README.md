@@ -6,11 +6,13 @@
 
 ![Fantasy story](https://img.shields.io/badge/story-branching%20fantasy-8b6ca8?style=for-the-badge) ![Offline](https://img.shields.io/badge/play-offline-294d49?style=for-the-badge) ![MIT code](https://img.shields.io/badge/code-MIT-c7a66b?style=for-the-badge)
 
-[The story](#-the-story) · [Screenshots](#-screenshots) · [Play locally](#-play-locally) · [Flutter edition](https://github.com/Arty1909/Between-Worlds-Flutter)
+[The story](#-the-story) · [Watch the video](https://youtu.be/Vh9yi6XxkY4) · [Screenshots](#-screenshots) · [Play locally](#-play-locally) · [Flutter edition](https://github.com/Arty1909/Between-Worlds-Flutter)
 
 </div>
 
-![The mysterious door opening](docs/screenshots/opening-door.png)
+[![Between Worlds browser edition home screen with the heroine and fully loaded castle landscape](docs/screenshots/home-cover.png)](https://youtu.be/Vh9yi6XxkY4)
+
+**[▶ Watch the Between Worlds video on YouTube](https://youtu.be/Vh9yi6XxkY4)**
 
 ## ✧ The story
 
